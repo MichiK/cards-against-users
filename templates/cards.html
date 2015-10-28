@@ -25,7 +25,11 @@ body {
 </head>
 <body>
 <div id="center">
-{{ phrase|safe }}
+{% if markup: %}
+{{ phrase|replace(s, "<span class=\"insert\">")|replace(e, "</span>")|safe }}
+{% else %}
+{{ phrase|replace(s, "")|replace(e, "")|safe }}
+{% endif %}
 </div>
 </body>
 </html>

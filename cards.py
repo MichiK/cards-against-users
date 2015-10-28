@@ -17,6 +17,9 @@ class Cards():
     blank lines are ignored.
     """
 
+    s = "_REPLACED_S_"
+    e = "_REPLACED_E_"
+
     d = os.path.dirname(os.path.realpath(__file__))
 
     white = []
@@ -66,10 +69,10 @@ class Cards():
         and return the result."
         """
         regex = "[ \/\.]"
-        return sub(regex, "-", cls.remove_article(str)) 
+        return sub(regex, "-", cls.remove_article(str).lstrip().lower())
 
     @classmethod
-    def replace(cls, black, white, markup=False):
+    def replace(cls, black, white):
         """
         Replace content on a black card with some white card.
         
@@ -78,12 +81,8 @@ class Cards():
         it tries a standard replacement or returns the text unchanged, if no
         replacement string could be found.
         """
-        if markup:
-            s = "<span class=\"insert\">"
-            e = "</span>"
-        else:
-            s = ""
-            e = ""
+        s = cls.s
+        e = cls.e
         if "__NOARTICLE__" in black:
             return black.replace(
                 "__NOARTICLE__", s + cls.remove_article(white) + e, 1
@@ -96,7 +95,7 @@ class Cards():
             return sub("__[A-Z]*__", s + white + e, black, 1)
     
     @classmethod
-    def get_phrase(cls, html=False, markup=False):
+    def get_phrase(cls, html=False):
         """
         Return a catchy phrase.
 
@@ -104,17 +103,22 @@ class Cards():
         all replacement pattterns have been filled with content. It then
         formats the return string a bit so it looks nicer.
         """
-        if markup:
-            html = True
         str = cls.draw_black(html=html)
         while search("__[A-Z_]*__", str):
-            str = cls.replace(str, cls.draw_white(html=html), markup=markup)
-        if str.startswith(" "):
-            str = str.lstrip()
+            str = cls.replace(str, cls.draw_white(html=html))
+
+        l = len(cls.s)
+        if str.startswith(cls.s) and str[l] != " ":
+            str = str[0:l] + str[l].upper() + str[l+1:]
         else:
             str = str[0].upper() + str[1:]
 
-        return str.replace("  ", " ")
+        str = str.replace(cls.s + " ", cls.s).lstrip()
+
+        if not html:
+            str = str.replace(cls.s, "").replace(cls.e, "")
+
+        return str
 
 
 def init_flask():
@@ -127,7 +131,9 @@ def init_flask():
     def render():
         return render_template(
             "cards.html",
-            phrase=Cards.get_phrase(html=True)
+            phrase=Cards.get_phrase(html=True),
+            s=Cards.s, e=Cards.e,
+            markup=True
         )
     return app
 
