@@ -44,7 +44,7 @@ class Cards():
     @classmethod
     def draw_black(cls, html=False):
         """
-        Draw a black card and return the text written on it."
+        Draw a black card and return the text written on it.
         """
         if html:
             return escape(choice(cls.black))
@@ -93,9 +93,7 @@ class Cards():
                 "__LOWERCASE__", s + cls.to_lowercase(white) + e, 1
             )
         else:
-            return black.replace(
-                "____", s + white + e, 1
-            )
+            return sub("__[A-Z]*__", s + white + e, black, 1)
     
     @classmethod
     def get_phrase(cls, html=False, markup=False):
@@ -138,7 +136,7 @@ if __name__ == "__main__":
     parser = ArgumentParser(description="Return a catchy phrase.")
     parser.add_argument(
         "-d", "--debug", action="store_true",
-        help="Start Flask's debugging web server"
+        help="start Flask's debugging web server"
     )
     args = parser.parse_args()
     if args.debug:

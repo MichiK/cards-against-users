@@ -27,5 +27,5 @@ are denoted by a number of placeholders:
 
 `white.txt` contains the words which are inserted into the blank spots on
 black cards. Articles should be written lowercase. If a word is always
-written lowercase, even at the beginning of sentence (i.e. a command),
+written lowercase, even at the beginning of a sentence (i.e. a command),
 a space can be added in front of the word to prevent capitalization.
