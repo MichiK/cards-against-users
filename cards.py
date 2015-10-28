@@ -144,7 +144,5 @@ if __name__ == "__main__":
         app.run(debug=True)
     else:
         print Cards.get_phrase()
-else:
-    application = init_flask()
 
 # vim: set expandtab ts=4 sw=4:
