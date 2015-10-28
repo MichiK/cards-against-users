@@ -1,0 +1,445 @@
+# Stuff imported from the pad: https://pads.ccc.de/hIq34IghvB
+# Please have a look there for the authors of each phrase.
+# Some lines have been adapted to the grammar of the script.
+
+Richard Stallman's beard
+William Henry Gates III
+Windows ME
+a hammer
+a flurry of thrown axes made out of server blades
+Apple fanatics
+the ghost of Steve Jobs
+ xkcd comics
+Our lord and saviour Cthulhu
+the indian support hotline guy
+42
+a race condition
+ init 0
+users™
+distributed realtime Java
+Fefe
+high sunspot activity
+a Trojan horse
+YouPorn
+gasoline
+Heartbleed
+a router
+a firewall
+Nagios
+X.509 certificates
+the Bastard Operator from Hell
+chinese hackers
+Token Ring
+Visual Basic for Applications
+Internet Explorer 6.0
+the NSA
+the GCHQ
+a DAU
+a magnetic tape head cleaner
+the Google Headquarters
+a Zuse Z1
+magnets
+Thick Ethernet
+my voice
+backups
+the CeBIT
+penetration tests from behind
+an APC UPS
+a wirecutter
+Fnord
+an alpha particle invasion in the RAM
+pizza
+OTR encryption
+The Big Bang Theory
+battery acid
+240 Volts
+the conference room
+Firefly
+Blitzkrieg
+the Pentium FDIV bug
+asians
+ systemd
+dual boot
+a crashed HDD
+SQL
+Oracle
+the test environment
+Donald Knuth
+solar flares
+PEBKAC
+remote hands
+lolcats
+4chan.org
+Anonymous
+hentai
+tentacle porn
+filesharing
+spam
+InfosecTaylorSwift
+the hotline
+that switch with the labels "110" and "220" at the back of the PC
+layer 8 problems
+the Internet
+the production datacenter
+AS/400
+the IRC
+ emacs
+the operating system
+a text editor
+DEFCON
+ vim
+the Chaos Communication Congress
+a provider
+a WINRAR™ license
+DOS 3.3
+Blinkenlights
+coffee
+Club Mate
+cooperative multitasking
+high availability computing
+640 KB
+a frozen WiFi cable
+Windows XP Service Pack 6
+OS/2
+CAT5-o-9-tails
+a standard 42 U rack
+halon™ gas
+the wrong cable
+20.000 Volt
+CAT 4 UTP
+alcohol
+the sysadmin
+terrorists
+a DVD rewinder
+a voodoo doll
+Kryptochef Vollbitverschlüsselung
+superglue
+an old software version
+a stolen license key
+Bruce Schneiers blog
+waving a dead chicken over the servers
+T-Offline
+foreign intelligence
+the product owner
+two men in black suits
+military grade cryptography
+a division by zero
+paperwork
+the ticket system
+the "halt and catch fire" bug
+an uncaught exception
+postfix
+a functional programming fanboy
+ sendmail
+a Wifi client trying to connect to Facebook
+Outlook for Android
+mdadm
+Cisco AnyConnect
+Adobe Flash
+every database ever written
+napalm
+a high pitched noise
+SNMP v2
+a QNAP NAS
+a 90° bent fibre cable
+ rm -rf
+My Little Pony
+1.000.000 clicks on Youtube
+a sysop with a huge beard
+Spamhaus
+ ssl3_rsa_des_40_cbc_md5
+ djb
+the cloud
+node.js
+the system documentation
+ISIS
+a misogynistic blogpost
+SyScan
+Stefan Esser
+OS X malware
+GIMP
+a SSH tunnel
+Comic Sans
+telnet
+the central authentication system
+the terminal server
+a SHA-1 PKI
+ libc
+Perl 6
+Cloudflare
+Norton Internet Security
+SCO Unix
+Gentoo's hardened kernel
+SELinux
+a USB 3.0 keyboard
+an Atlassian Update script
+Potemkin servers
+Hetzner Support
+a Dilbert comic
+the boss
+ chkdsk
+defragmenting your harddrive
+a broken LUKS container
+a swift kick in the butt
+Windows 10 tiles
+WINE
+IBM Lotus Notes
+a 5 year old Thunderbird installation
+Cyanogenmod
+distributed MongoDB
+a poorly tested AngularJS page
+an old TPLink router
+Tomcat 7
+a sportsball game
+an Akamai blogpost
+Qually's SSLTest
+800KB of minified EXTjs
+IPv4 to IPv6
+a misconfigured HAProxy
+a chinese /64 net
+BitTorrent
+Pirate Bay
+a document on Wikileaks
+the darknet
+XKCD806-compliance
+undocumented iptables rules
+a distributed Raspberry Pi cluster
+a lawyer
+Lennart Pöttering
+Linus Torvalds
+Julian Assange
+PAM
+OS/2
+the Democratic People's Republic of Korea
+spontaneous self combustion
+an out-of-sync NTPd
+ libav
+an ISP-cobranded Fritzbox
+a stoned sysop
+zombies
+CACert
+Illuminati
+COBOL
+a XDA-Developers forum user
+a rootkit
+Windows Services for POSIX
+a cyberattack
+Token Ring
+punch cards
+a 10Base2 uplink
+HIMEM.SYS
+Microsoft Bob
+the Chaos Computer Club
+Windows 3.11
+CVS
+Chuck Norris
+insubstantial weeping
+a segfault
+a general error
+weapons of mass destruction
+bit rot
+a user's skull
+epoxy adhesives
+portscans
+the Knipex©®™ Firewall
+replacement bits for the storage array
+SS7
+Macworld
+export ciphers
+CAPS LOCK
+ROT13
+a wig made of backup tape
+RFC1918
+IP over avian carriers
+a Windows XP machine using Usenext
+a strong cup of coffee
+the AOL Browser
+/dev/null
+Schei� Encoding!
+/dev/urandom
+Wordpress
+PHP
+a side-channel attack
+Hipster Go
+coffee to go™
+unmanaged switches
+regular expressions
+abuse mails
+LISP
+Fortran
+Klingon
+a 10Base-2 Hub
+a blacklisted T-Offline mailserver
+Siemens & Halske
+encryption made in Germany
+the manual
+DNSSEC
+blogging
+highly enriched uranium
+a broken linecard
+a pickset
+IPv5
+0.0.0.0
+advanced persistent threat
+little endian
+big endian
+Unicode translation format
+an unusable server-management interface
+a bug in PHPMyAdmin
+local root exploits
+printers
+a bug-free version from Oracle
+krautchan
+polandball
+PXE boot
+Debian experimental
+Debian stable
+Ubuntu LTS
+real hardware
+the datacenter's ISO certifcation
+a binary blob
+a Docker container
+the physical layer
+Upstart
+::1
+the Silicon Valley
+an open FTP server
+Unreal Tournament
+rule 34
+full-stack developers
+the Ballmer peak
+LaTeX
+Clippy
+a user
+Siri
+an endless resource of animated GIFs
+the evil bit
+homebrew encryption
+Yahoo toolbar
+burning hardware
+crapware
+bundled software
+TCP/IP
+UDP
+DualStack Lite
+Windows Server Update Services
+Active Directory
+���� Encoding
+competing standards
+proprietary software
+the usenet
+ de.alt.sysadmin.recovery
+a russian nuclear warhead
+ReiserFS
+NTFS
+a mechanical mouse
+the ARP table
+XML embedded in JSON embedded in XML
+a null pointer
+UTF-8
+a CAPI error
+NoSQL
+MongoDB
+Stuxnet
+cryptocalypse
+closed source
+license flames
+the brain
+cross-site scripting
+SQL injections
+hipsters
+127.0.0.1
+Multipass
+a bug in OpenSSL
+Freifunk
+an open root shell
+QuickTime
+The One Ring
+Real Player
+1.21 Gigawatts
+the production environment
+a 230V≈ hub
+guest access
+a bottle of whiskey
+connection reset by peer
+a Commodore C64
+Siemens
+Made in West-Germany
+the BND
+a microwave
+a Windows rescue disk
+Cards against Humanity
+ICQ
+a project manager
+Github
+a first-aid kit
+Sony
+Hannah Montana Linux
+ apt-get
+ yum
+a fork bomb
+XAMPP
+Teamviewer
+negative ions
+a SCSI-0 interface problem
+a Pesthörnchen
+Avira Anti-Virus
+an EMP
+a drive-by shooting
+a big large trout
+GNU Hurd
+a PLC exposed to the public internet
+512-bit RSA keys
+a plaintext private key in the firmware image
+:(){ :|:&};:
+the POODLE attack
+the BEAST attack
+cyber-feminism
+a remote code execution in libc
+fire
+a genuine and authorized Pope of Discordia
+the discordian calendar
+magic
+executable line noise
+a CGI script from 1993
+an ActiveX control
+a Brainfuck interpreter in INTERCAL
+Netscape
+NCSA Mosaic
+Edward Snowden
+the Mossad
+a default password
+a 500 page MS Word document with 73 images and 85 tables
+an e-mail sent to everyone in the company
+De-Mail
+network cable bondage
+rapists
+Mozilla
+the Paamayim Nekudotayim Exception
+hot spaceship operators in your area
+salacious push notifications
+vogon poetry
+Klingon short text messages
+security by obscurity
+a PASCAL script from 1975
+TurboPASCAL
+a towel
+5TB of speed metal albums
+PSD2HTML
+Microsoft FrontPage
+a DHTML file with windows encoding
+wireless hackers on MDMA
+LaDoSaNoStra
+hacker conference challenge badges
+a segfaulting VLC
+superbowl commercials
+Firefox Sync
+angry support tickets about the DNT flag being ignored
+a pipe smoking JavaScript coder
+vardump driven development
+the whole city's Internet access
+a oneplus invite
+keybase.io
+PGP
+metasploit
+a BSOD

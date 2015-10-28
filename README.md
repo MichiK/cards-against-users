@@ -8,9 +8,9 @@ integrated in any WSGI-capable web server using `cards.wsgi`. If `cards.py`
 is executed on the command line, it returns a catchy saying. To start the
 debugging/development web server, call it as `./cards.py -d`.
 
-You will need to create two files `white.txt` and `black.txt` containing the
-content of the white and black cards, respectively, one per line. Comments
-starting with `#` as well as blank (empty) lines are ignored.
+The two files `white.txt` and `black.txt` contain the content of the white
+and black cards, respectively, one per line. Comments starting with `#` as
+well as blank (empty) lines are ignored.
 
 `black.txt` contains the phrases with one or more blank spots. Blank spots
 are denoted by a number of placeholders:

@@ -1,0 +1,208 @@
+# Stuff imported from the pad: https://pads.ccc.de/hIq34IghvB
+# Please have a look there for the authors of each phrase.
+# Some lines have been adapted to the grammar of the script.
+
+____ + ____ = ____
+Step 1: ____. Step 2: ____. Step 3: Profit!
+When I opened the door to the server room, I found ____.
+A user left his screen unlocked. I used ____ to teach him a lesson.
+I closed the ticket because of ____.
+The server is unavailable because ____ ran out of ____.
+____ is the superhero we need.
+My weapon in the cyberwar will be ____.
+____. Your argument is invalid.
+The next big thing: ____.
+The biggest failure in the history of system administration was ____.
+Our new datacenter features ____.
+Good news everyone. I invented ____.
+I invite you all to an adventure to ____. You can take ____ with you.
+BOFH excuse of the day: ____.
+This meeting's topic is ____.
+I received a spam mail. It's a cheap offer for ____.
+I do not always use ____. But when I do, I do it in ____.
+Our technical competence relies on ____.
+Have you tried turning ____ off and on again?
+I discovered an unpatched version of ____ in the production environment.
+With a billion dollars, I would buy ____.
+No, it is not possible to run ____ on ____.
+Our backup solution is based on ____.
+____ is the new server operating system.
+____ ought to be enough for everyone.
+Is this __NOARTICLE__ really marked with "Made in USSR"?
+What do you mean by "____"!?
+You got the memo about ____.
+The backup tape is not available because of ____.
+____ has set the ticket to "won't fix".
+Remember that noise coming from ____? That was ____.
+Your wiki contains a new page about ____.
+____ for Mac.
+____ has set the datacenter on fire.
+And so the sysop has opened a bottle of beer with ____.
+We just had the fire extinguisher filled with ____.
+____ will provide our new infrastructure.
+The __NOARTICLE__ interface caused an off-by-one error in the monitoring system.
+____ has leaked your certificates on production.
+You have to explain ____ how to set up a curve25519 key with ssh_keygen.
+Your parents asked to you to fix ____ on their computer.
+ io.js scales better than ____.
+____ has emptied the fridge.
+____ has denied attending because of the lack of CoC.
+It's actually GNU/____.
+____ has asked you to decentralize ____.
+____ overuses the "cyber" buzzword.
+____ screwed up all IP telephones' connectivity in the callcenter.
+____ was deployed via a 20 year old Perl deploy script.
+____ has asked you if the problem was caused by ____.
+The new PO previously worked at ____.
+Discussing ____ bugs with Microsoft support.
+Obama talking about the issues with ____ and freedom.
+____ doesn't comply with our coding guidelines.
+____ is being flamed by infosec people on Twitter.
+____ didn't want to buy a certificate for their onlineshop.
+You elect ____ as the new scrum master.
+____ caused the client's Windows PC to halt.
+____ is not included in our SLA.
+You get flamed for even trying to use ____ by the whole scrum team.
+The snakeoil vendor recommends using ____.
+A bug in ____ caused you to be on call during christmas.
+____ ddos'd the application.
+____ would be a big topic in our next conference.
+You need to speak about ____ at the next cfgmgmtcamp.
+Just use ____ and the problem will solve itself.
+You need to integrate ____ into ____ for scalability.
+We migrated to the new version of ____.
+You are asked to put Semver into ____.
+Contact ____ on Twitter.
+____ has caused production to halt.
+____. Critical hit.
+You are using ____. It's not very effective.
+You need to rewrite the documentation of ____ for gender neutrality.
+We need to write a blogpost on how to integrate ____ into the cloud.
+You need to write a cookbook for installing ____ on Gentoo.
+____ just relaunched and they use ____ heavily.
+____ is on call for your machinery tonight.
+The new hostname is __LOWERCASE__.
+Can you realize JBOD using ____?
+Can you take a look why ____ doesn't forward emails anymore?
+All my users have been killed due to ____.
+Then just add ____ manually to /etc/passwd!
+Here is the new opsec guy, can you show him our __NOARTICLE__ implementation?
+Our honeypot monitoring showed me we use ____. Why?
+I used ____ to verify that the system is secure.
+You have ____ as a dependency blocker.
+You get a memo to hotfix ____ simply using ____ on staging.
+7:38 in the morning. Time for ____!
+The datacenter is being raided by ____.
+____ may cause skin cancer.
+____ spilled beer on the rack. You fix it using ____.
+____ mines bitcoins on your production system.
+Actually, it's about ethics in __NOARTICLE__ journalism.
+____ didn't show up once in the logs. Sounds legit.
+This is no bug. It's ____!
+Please reimplement ____ in ____.
+The boss asked for ____. So I gave him ____.
+ systemd-__LOWERCASE__d
+____ is now on Twitter.
+You need to start /etc/init.d/__LOWERCASE__ manually!
+Go ask on the mailinglist for ____.
+My Raspberry Pi runs ____!
+I just found out that the cable labelled __NOARTICLE__ is plugged into ____.
+Sure. We have a connector for ____ to garden hose.
+I lifted a base plate in the server room. There was ____ under it.
+Our cooling outage was caused by ____ in ____.
+The porn filter just blocked the term "__NOARTICLE__".
+____ is more secure than ____.
+____ is not a text editor.
+____ is the best text editor.
+Incompetence for 400. My answer is: ____!
+____ made in Germany!
+____: The latest feature on Facebook.
+The last point on our agenda is ____.
+__NOARTICLE__ as a service.
+But the sysadmin told me to use ____.
+____ is secure by design!
+____? SRSLY???
+____ has encountered a problem and needs to close. We are sorry for the inconvenience.
+____ is userfriendly.
+That user had a problem with ____. I told him to use ____.
+All our servers have been upgraded to support ____.
+We've completely migrated ____ to Amazon Web Services.
+____ is now case-insensitive!
+____ has commited suicide.
+We are being sued because of ____!
+____? There is an app for that!
+We use ____ as a random number generator.
+This "accident" was caused by ____.
+I read about ____ in the latest issue of WIRED!
+Enough __NOARTICLE__ for today! I have to do some __NOARTICLE__ work.
+But I've read on HN that ____ is insecure!
+A trollpost on reddit said that ____ doesn't work with ____.
+The intern copied the configuration for ____ from Stack Overflow!
+If we put ____ into ____, ____ should work.
+Sadly, all articles on ____ are only hello world!
+In my country we are not allowed to watch Youtube videos on ____!
+China has extended their internet filter on ____.
+Reddit & ____ is going to start the next cyberwar!
+____. This summer. In every movie theater.
+I lost hold of ____ and it crushed the user.
+Time for ____ and some bubblegum.
+I went to ____ and all I got was this lousy __NOARTICLE__!
+I slayed Onyxia using ____ once!
+__NOARTICLE__ porn.
+As long as ____ exists, we are not safe to use the Internet!
+My mom forbid me to use ____ :(
+____ is dead, long live ____!
+Are there any good test-frameworks for ____?
+…and then I said "__NOARTICLE__" and walked away.
+____. What could possibly go wrong?
+We don't need a backup, we already have ____!
+I came here to kick ass and ____. But I ran out of ____.
+____ on a production server. 
+We are using ____ but we should upgrade to ____.
+We have a local user group for ____. But they are always drunk.
+I don't use Debian, they just migrated to ____!
+There's no place like ____!
+Perl has just adopted the new __NOARTICLE__ operator :3
+____ will change the world as we know it.
+What is this new "__NOARTICLE__"? I always see people with shirts about this...
+I just crashed production using ____ over the hotel wifi.
+Nobody ever got fired for buying ____.
+Oh we don't use encryption. We use ____.
+Thank you for buying ____ on amazon.com.
+I used to be core maintainer of ____. But then I took an arrow to the knee.
+"Just install ____! I use it every time." - The boss
+Wasn't ____ used to hack in the blackhat movie?
+ERMEGERD - ____!
+ git pull __LOWERCASE__ master
+The lovely sound of ____.
+I love the smell of ____ in the morning.
+People call ____ users thought leaders!
+Are there any security issues with ____?
+Does ____ integrate with AngularJS?
+Could ____ survive a fall from the 5th floor?
+All you need is ____ and duct tape!
+We just received a box full of ____.
+I will hold a talk about ____ on the next conference.
+The latest thing in data transfer: ____.
+____? That's in the second drawer of my desk next to ____.
+"We are sorry. He received a lethal dose of ____."
+SixXS cut off our IPv6 because of ____.
+We use ____ with ____ because ____ doesn't scale.
+____ is webscale.
+O'Reilly just published a book about ____.
+All your __NOARTICLE__ are belong to us.
+____ worked on our development systems stable!
+They told us ____ would be bug-free by design!
+____? We have a support contract for that.
+BOFH hint of the day: ____.
+ import __LOWERCASE__
+__LOWERCASE__.pdf.exe
+Who connected ____ to the uninterruptible power supply?
+____, have your heard of it, motherfucker?
+____ would not have happend, were you using ____.
+If you think Tor-Browser is slow, you should try ____!
+____, the definitive guide!
+____, the good parts!
+Why would you ever want to use ____? It's immoral!
+Rule 34: ____!
+Apple finally gets its patent on ____.
