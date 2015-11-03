@@ -149,6 +149,12 @@ if __name__ == "__main__":
         app = init_flask()
         app.run(debug=True)
     else:
-        print Cards.get_phrase()
+        while True:
+            try:
+                print Cards.get_phrase()
+            except UnicodeEncodeError:
+                continue
+            else:
+                break
 
 # vim: set expandtab ts=4 sw=4:
