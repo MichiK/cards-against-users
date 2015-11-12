@@ -35,24 +35,18 @@ class Cards():
                 black.append(l.decode("utf-8").rstrip())
 
     @classmethod
-    def draw_white(cls, html=False):
+    def draw_white(cls):
         """
         Draw a white card and return the text written on it.
         """
-        if html:
-            return escape(choice(cls.white))
-        else:
-            return choice(cls.white)
+        return choice(cls.white)
     
     @classmethod
-    def draw_black(cls, html=False):
+    def draw_black(cls):
         """
         Draw a black card and return the text written on it.
         """
-        if html:
-            return escape(choice(cls.black))
-        else:
-            return choice(cls.black)
+        return choice(cls.black)
 
     @classmethod
     def remove_article(cls, str):
@@ -103,9 +97,9 @@ class Cards():
         all replacement pattterns have been filled with content. It then
         formats the return string a bit so it looks nicer.
         """
-        str = cls.draw_black(html=html)
+        str = cls.draw_black()
         while search("__[A-Z_]*__", str):
-            str = cls.replace(str, cls.draw_white(html=html))
+            str = cls.replace(str, cls.draw_white())
 
         l = len(cls.s)
         if str.startswith(cls.s) and str[l] != " ":
@@ -115,10 +109,10 @@ class Cards():
 
         str = str.replace(cls.s + " ", cls.s).lstrip()
 
-        if not html:
-            str = str.replace(cls.s, "").replace(cls.e, "")
-
-        return str
+        if html:
+            return escape(str)
+        else:
+            return str.replace(cls.s, "").replace(cls.e, "")
 
 
 def init_flask():
