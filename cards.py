@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 
@@ -23,16 +23,16 @@ class Cards():
     d = os.path.dirname(os.path.realpath(__file__))
 
     white = []
-    with open(d + "/white.txt", "r") as f:
+    with open(d + "/white.txt", "r", encoding="utf-8") as f:
         for l in f:
             if not l.startswith("#") and len(l) > 1:
-                white.append(l.decode("utf-8").rstrip())
+                white.append(l.rstrip())
 
     black = []
-    with open(d + "/black.txt", "r") as f:
+    with open(d + "/black.txt", "r", encoding="utf-8") as f:
         for l in f:
             if not l.startswith("#") and len(l) > 1:
-                black.append(l.decode("utf-8").rstrip())
+                black.append(l.rstrip())
 
     @classmethod
     def draw_white(cls):
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     else:
         while True:
             try:
-                print Cards.get_phrase()
+                print(Cards.get_phrase())
             except UnicodeEncodeError:
                 continue
             else:
