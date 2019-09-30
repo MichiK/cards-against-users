@@ -1,22 +1,29 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cards against users</title>
-<style type="text/css">
+<style>
 body {
   font-family: monospace;
-  font-size: 200%;
+  font-size: 2em;
 }
 #center {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -30pt;
+  margin-top: -4.5em;
   margin-left: -45%;
-  height: 50pt;
-  line-height: 150%;
+  height: 9em;
+  line-height: 9em;
   width: 90%;
   text-align: center;
+}
+#text {
+  line-height: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
 }
 .insert {
   text-decoration: underline;
@@ -25,11 +32,13 @@ body {
 </head>
 <body>
 <div id="center">
-{% if markup: %}
+<span id="text">
+{%- if markup: -%}
 {{ phrase|replace(s, "<span class=\"insert\">")|replace(e, "</span>")|safe }}
-{% else %}
+{%- else -%}
 {{ phrase|replace(s, "")|replace(e, "")|safe }}
-{% endif %}
+{%- endif -%}
+</span>
 </div>
 </body>
 </html>
