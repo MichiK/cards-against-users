@@ -1,4 +1,4 @@
-#Cards against Users
+# Cards against Users
 
 Following the rules of the infamous "Cards against Humanity", this script
 cracks lines by drawing black and white cards and combining them randomly.
