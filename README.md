@@ -4,9 +4,9 @@ Following the rules of the infamous "Cards against Humanity", this script
 cracks lines by drawing black and white cards and combining them randomly.
 
 The script `cards.py` is a full blown Flask web application and can be
-integrated in any WSGI-capable web server using `cards.wsgi`. If `cards.py`
-is executed on the command line, it returns a catchy saying. To start the
-debugging/development web server, call it as `./cards.py -d`.
+integrated in any WSGI-capable web server. If `cards.py` is executed on the
+command line, it returns a catchy saying. To start the debugging/development
+web server, call it as `./cards.py -d`.
 
 The two files `white.txt` and `black.txt` contain the content of the white
 and black cards, respectively, one per line. Comments starting with `#` as

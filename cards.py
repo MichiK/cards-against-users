@@ -150,5 +150,7 @@ if __name__ == "__main__":
                 continue
             else:
                 break
+else:
+    application = init_flask()
 
 # vim: set expandtab ts=4 sw=4:
