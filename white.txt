@@ -192,7 +192,7 @@ an old TPLink router
 Tomcat 7
 a sportsball game
 an Akamai blogpost
-Qually's SSLTest
+Qualys SSLTest
 800KB of minified EXTjs
 IPv4 to IPv6
 a misconfigured HAProxy
@@ -443,3 +443,8 @@ keybase.io
 PGP
 metasploit
 a BSOD
+
+# Stuff added 2020
+
+COVID-19
+Microsoft Sharepoint

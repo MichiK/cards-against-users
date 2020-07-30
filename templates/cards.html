@@ -34,9 +34,9 @@ body {
 <div id="center">
 <span id="text">
 {%- if markup: -%}
-{{ phrase|replace(s, "<span class=\"insert\">")|replace(e, "</span>")|safe }}
+{{ cards.get_phrase(html=True, left="<span class=\"insert\">", right="</span>")|safe }}
 {%- else -%}
-{{ phrase|replace(s, "")|replace(e, "")|safe }}
+{{ cards.get_phrase(html=True)|safe }}
 {%- endif -%}
 </span>
 </div>

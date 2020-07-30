@@ -157,7 +157,7 @@ Are there any good test-frameworks for ____?
 ____. What could possibly go wrong?
 We don't need a backup, we already have ____!
 I came here to kick ass and ____. But I ran out of ____.
-____ on a production server. 
+____ on a production server.
 We are using ____ but we should upgrade to ____.
 We have a local user group for ____. But they are always drunk.
 I don't use Debian, they just migrated to ____!
@@ -210,3 +210,5 @@ Apple finally gets its patent on ____.
 # Stuff added 2020
 
 There are two relevant problems in computer science: 1. ____, 2. ____, 3. Off-by-one errors
+Serverless __NOARTICLE__ in the cloud.
+Donald Trump just ranted about ____ on Twitter.
