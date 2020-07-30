@@ -1,9 +1,15 @@
-FROM alpine:3.10
+FROM python:3-alpine
 
-ENV PYTHONDONTWRITEBYTECODE=1
-RUN apk add --no-cache python3 py3-flask py3-gunicorn
+ENV \
+  PYTHONDONTWRITEBYTECODE=1 \
+  PIP_NO_CACHE_DIR=true \
+  PIP_DISABLE_PIP_VERSION_CHECK=true
 
 WORKDIR /
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
 COPY . .
 USER nobody
 EXPOSE 8000
