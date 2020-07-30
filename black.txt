@@ -206,3 +206,7 @@ ____, the good parts!
 Why would you ever want to use ____? It's immoral!
 Rule 34: ____!
 Apple finally gets its patent on ____.
+
+# Stuff added 2020
+
+There are two relevant problems in computer science: 1. ____, 2. ____, 3. Off-by-one errors
