@@ -128,6 +128,7 @@ def init_flask():
     """
     from flask import Flask, render_template
     from whitenoise import WhiteNoise
+    from werkzeug.middleware.proxy_fix import ProxyFix
 
     app = Flask(__name__)
 
@@ -135,7 +136,9 @@ def init_flask():
     def render():
         return render_template("cards.html", cards=Cards, markup=True)
 
-    app.wsgi_app = WhiteNoise(app.wsgi_app, root="static/")
+    app.wsgi_app = WhiteNoise(
+        ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1), root="static/"
+    )
 
     return app
 
