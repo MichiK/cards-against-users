@@ -80,15 +80,15 @@ class Cards:
 
         if "__NOARTICLE__" in black:
             return black.replace(
-                "__NOARTICLE__", left + cls.remove_article(white) + right, 1
+                "__NOARTICLE__", left + cls.remove_article(white) + right, count=1
             )
 
         if "__LOWERCASE__" in black:
             return black.replace(
-                "__LOWERCASE__", left + cls.to_lowercase(white) + right, 1
+                "__LOWERCASE__", left + cls.to_lowercase(white) + right, count=1
             )
 
-        return sub("__[A-Z]*__", left + white + right, black, 1)
+        return sub("__[A-Z]*__", left + white + right, black, count=1)
 
     @classmethod
     def get_phrase(cls, html: bool = False, left="", right=""):
@@ -108,7 +108,7 @@ class Cards:
         # indicator.
         pos = len(cls.left)
         if phrase.startswith(cls.left) and phrase[pos] != " ":
-            phrase = phrase[0:pos] + phrase[pos].upper() + phrase[pos+1:]
+            phrase = phrase[0:pos] + phrase[pos].upper() + phrase[pos + 1 :]
         else:
             phrase = phrase[0].upper() + phrase[1:]
 
@@ -127,6 +127,7 @@ def init_flask():
     Initialize the Flask object and create a route to the template.
     """
     from flask import Flask, render_template
+    from whitenoise import WhiteNoise
 
     app = Flask(__name__)
 
@@ -134,15 +135,17 @@ def init_flask():
     def render():
         return render_template("cards.html", cards=Cards, markup=True)
 
+    app.wsgi_app = WhiteNoise(app.wsgi_app, root="static/")
+
     return app
 
 
 if __name__ == "__main__":
     from argparse import ArgumentParser
+
     parser = ArgumentParser(description="Return a catchy phrase.")
     parser.add_argument(
-        "-d", "--debug", action="store_true",
-        help="start Flask's debugging web server"
+        "-d", "--debug", action="store_true", help="start Flask's debugging web server"
     )
     args = parser.parse_args()
     if args.debug:
