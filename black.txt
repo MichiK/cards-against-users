@@ -46,8 +46,8 @@ You have to explain ____ how to set up a curve25519 key with ssh_keygen.
 Your parents asked to you to fix ____ on their computer.
  io.js scales better than ____.
 ____ has emptied the fridge.
-____ has denied attending because of the lack of CoC.
-It's actually GNU/____.
+____ has refused to attend because of the lack of CoC.
+It's actually GNU/__NOARTICLE__.
 ____ has asked you to decentralize ____.
 ____ overuses the "cyber" buzzword.
 ____ screwed up all IP telephones' connectivity in the callcenter.
@@ -176,7 +176,7 @@ ERMEGERD - ____!
  git pull __LOWERCASE__ master
 The lovely sound of ____.
 I love the smell of ____ in the morning.
-People call ____ users thought leaders!
+People call __NOARTICLE__ users thought leaders!
 Are there any security issues with ____?
 Does ____ integrate with AngularJS?
 Could ____ survive a fall from the 5th floor?
@@ -212,3 +212,11 @@ Apple finally gets its patent on ____.
 There are two relevant problems in computer science: 1. ____, 2. ____, 3. Off-by-one errors
 Serverless __NOARTICLE__ in the cloud.
 Donald Trump just ranted about ____ on Twitter.
+
+# Stuff added 2026
+
+AI-assisted ____
+Vibe-coding ____ is a bad idea? Why?
+Our AI just hallucinated a security vulnerability regarding ____.
+____ (formerly known as ____)
+Let's deploy ____ on Friday afternoon!

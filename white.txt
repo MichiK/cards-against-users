@@ -448,3 +448,18 @@ a BSOD
 
 COVID-19
 Microsoft Sharepoint
+
+# Stuff added 2026
+
+AI
+a poorly trained LLM
+Github Copilot
+Claude Code
+Google Gemini
+the Windows 10 EOL date
+5000 AI-generated CVEs
+X (formerly known as Twitter)
+Elon Musk
+5 GB of node_modules
+ReactJS
+Meta AI

@@ -8,6 +8,10 @@ ENV \
 WORKDIR /
 
 COPY requirements.txt .
+
+RUN python -m venv venv \
+  && source venv/bin/activate
+
 RUN pip install -r requirements.txt
 
 COPY . .
