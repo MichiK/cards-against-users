@@ -1,21 +1,29 @@
-FROM python:3-alpine
+FROM python:3-alpine AS base
 
-ENV \
-  PYTHONDONTWRITEBYTECODE=1 \
-  PIP_NO_CACHE_DIR=true \
-  PIP_DISABLE_PIP_VERSION_CHECK=true
+ENV VIRTUAL_ENV=/venv
 
-WORKDIR /
+FROM base AS build
 
-COPY requirements.txt .
+RUN --mount=type=cache,target=/var/cache/apk,sharing=locked \
+  apk add uv
 
-RUN python -m venv venv \
-  && source venv/bin/activate
+COPY pyproject.toml uv.lock .
 
-RUN pip install -r requirements.txt
+RUN --mount=type=cache,target=/root/.cache/uv \
+  uv sync --active --frozen --link-mode=copy
+
+FROM base AS runtime
+
+COPY --from=build /venv /venv
+
+WORKDIR /app
 
 COPY . .
+
 USER nobody
+
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
 EXPOSE 8000
 
 CMD ["gunicorn", "-b", "0.0.0.0:8000", "cards"]

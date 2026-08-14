@@ -1,7 +1,5 @@
-*
-!requirements.txt
-!cards.py
-!black.txt
-!white.txt
-!static/
-!templates/
+__pycache__
+.git
+.idea
+.venv
+venv
